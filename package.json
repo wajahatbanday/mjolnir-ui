@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wajahatbanday",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
     "react": "^18.0.0",

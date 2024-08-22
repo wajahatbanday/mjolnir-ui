@@ -1,0 +1,28 @@
+# Exclude source files
+src/
+
+# Exclude public assets (unless needed in the npm package)
+public/
+
+# Exclude node_modules (dependencies are handled by npm)
+node_modules/
+
+# Exclude build output (dist should be included if it contains your compiled files)
+# dist/
+
+# Exclude configuration and environment files
+babel.config.js
+tsconfig.json
+next-env.d.ts
+package-lock.json
+.npmignore
+
+# Exclude miscellaneous
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Exclude version control files
+.git/
+.gitignore
