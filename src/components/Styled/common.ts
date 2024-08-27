@@ -1,17 +1,20 @@
 import {
   style,
-  space,
   borderRadius,
-  layout,
-  typography,
-  color,
-  background,
-  border,
   flexbox,
-  position,
   compose,
-  shadow,
   backgroundColor,
+  height,
+  width,
+  space,
+  color,
+  typography,
+  layout,
+  border,
+  background,
+  position,
+  shadow,
+  system,
 } from "styled-system";
 
 export const gap = style({
@@ -32,5 +35,8 @@ export const systemStyles = compose(
   borderRadius,
   gap,
   shadow,
-  backgroundColor
+  backgroundColor,
+  width,
+  height,
+  system
 );
