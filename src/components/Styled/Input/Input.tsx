@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 import { configStyle } from "../config";
 import { systemStyles } from "../common";
 import { InputBoxProps } from "./input.type";
@@ -11,7 +10,7 @@ export const StyledInputBox = styled.input.withConfig(
   font-size: 15px;
   &::placeholder {
     color: ${(props) => props.placeholderColor || "#7d7d7d"};
-    font-size: 18;
+    font-size: 18px;
   }
   &::-webkit-file-upload-button {
     cursor: "pointer";
