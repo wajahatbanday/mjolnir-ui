@@ -6,3 +6,4 @@ export * from "./Input";
 export * from "./Text";
 export * from "./GlassBox";
 export * from "./HoverBox";
+export * from "./TextArea";
