@@ -2,7 +2,8 @@
   "compilerOptions": {
     "outDir": "./dist",
     "declaration": true,
-    "module": "commonjs",
+    "declarationMap": true, // Optional: useful for debugging
+    "module": "ESNext",
     "target": "es5",
     "strict": true,
     "jsx": "react",
