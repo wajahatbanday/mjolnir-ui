@@ -1,6 +1,6 @@
 {
   "name": "sentinal-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library of reusable styled components for consistent UI development for frontend projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
